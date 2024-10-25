@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "air-quality"
+version = "0.1.0"
+description = ""
+authors = ["Glauber Silva <glauber.lucio.silva@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.3"
+uvicorn = "^0.32.0"
+pydantic-settings = "^2.6.0"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
